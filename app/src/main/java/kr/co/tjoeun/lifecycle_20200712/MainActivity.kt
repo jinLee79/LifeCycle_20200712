@@ -17,6 +17,11 @@ class MainActivity : BaseActivity() {
         Log.d("메인화면", "onCreate 실행")
     }
 
+    override fun onResume() {
+        super.onResume()
+        Log.d("메인화면", "onResume 실행")
+    }
+
     override fun setupEvents() {
 
         moveBtn.setOnClickListener {
