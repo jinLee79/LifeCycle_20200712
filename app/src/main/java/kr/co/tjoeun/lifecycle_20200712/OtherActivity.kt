@@ -9,5 +9,6 @@ class OtherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_other)
 
+        Log.d("다른 화면", "onCreate 실행")
     }
 }
